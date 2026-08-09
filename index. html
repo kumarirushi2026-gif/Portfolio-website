@@ -1,1 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rushi Kumari | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+  <!-- Navigation -->
+  <nav>
+    <h2>Rushi Kumari</h2>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <h1>Hello, I'm Rushi 👋</h1>
+    <h2>BCA Student |Full Stack Web Developer</h2>
+    <p>
+      I love creating beautiful, responsive and user-friendly websites using
+      HTML, CSS and JavaScript.
+    </p>
+    <button>Hire Me</button>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2>About Me</h2>
+    <p>
+      Hello! I'm <strong>Rushi Kumari</strong>, a BCA student passionate about
+      Full Stack Web Development and Problem Solving. I enjoy building
+      responsive websites and continuously improving my programming skills.
+      Currently, I am learning web development using modern Technologies , C++, Data Structures &
+      Algorithms, DBMS and Cyber Security and Privacy through NPTEL.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <h2>My Skills</h2>
+
+    <div class="skill-box">
+      <div>HTML</div>
+      <div>CSS</div>
+      <div>JavaScript</div>
+      <div>C++</div>
+      <div>DSA</div>
+      <div>DBMS</div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="education" id="education">
+    <h2>Education</h2>
+
+    <div class="edu-card">
+      <h3>Bachelor of Computer Applications (BCA)</h3>
+      <p>DPG Degree College, Gurugram</p>
+      <p>Maharshi Dayanand University (MDU), Rohtak</p>
+      <p>2024 – 2027</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <h2>My Projects</h2>
+
+    <div class="project-container">
+
+      <div class="project-card">
+        <h3>Personal Portfolio</h3>
+        <p>A responsive portfolio website built using HTML, CSS and JavaScript.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>Landing Page</h3>
+        <p>A modern and responsive landing page with an attractive user interface.</p>
+      </div>
+
+      <div class="project-card">
+        <h3>Temperature Converter</h3>
+        <p>A web application to convert Celsius, Fahrenheit and Kelvin.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+
+    <p>📧 Email: <a href="mailto:kumarirushi2026@gmail.com">kumarirushi2026@gmail.com</a></p>
+
+    <p>💼 LinkedIn:
+      <a href="https://www.linkedin.com/in/rushi-kumari-8b05b53a5" target="_blank">
+        linkedin.com/in/rushi-kumari-8b05b53a5
+      </a>
+    </p>
+
+    <p>💻 GitHub:
+      <a href="https://github.com/kumarirushi2026-gif" target="_blank">
+        github.com/kumarirushi2026-gif
+      </a>
+    </p>
+
+    <br>
+
+    <a href="mailto:kumarirushi2026@gmail.com">
+      <button>Contact Me</button>
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Rushi Kumari | All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
